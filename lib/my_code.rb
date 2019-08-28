@@ -11,18 +11,8 @@ end
 
 
 
-def reduce(array, starting_point=0)
-  counter = 0 
-while counter < array.length do 
-starting_point += array[counter]
- counter += 1
- end
- return starting_point
- if (array[counter] == false || array[counter] == nil)
-   return false
-   elsif array[counter] == true
-   return true
-  counter += 1 
-  end
+def reduce(array, sv=nil)
+  if sv
+    
 end
 
